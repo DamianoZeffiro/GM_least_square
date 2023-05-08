@@ -75,18 +75,7 @@ def getData(m, n, k, Ameth, xmeth, sigma1=None, sigma2=None, state=None):
         A = hadamard(n)
         picks = np.random.permutation(n)[:m]
         A = A[picks, :]
-    elif Ameth == 5:
-        # partial 1-d fourier transform
-        A = None  # You will need to implement or import a partial Fourier matrix function
-        picks = np.random.permutation(n)[:m]
-    elif Ameth == 6:
-        # partial 1-d discrete cosine transform
-        A = None  # You will need to implement or import a partial DCT matrix function
-        picks = np.random.permutation(n)[:m]
-    elif Ameth == 7:
-        # partial 2-d discrete cosine transform
-        A = None  # You will need to implement or import a partial 2D DCT matrix function
-        picks = np.random.permutation(n)[:m]
+
 
     # Generate xs based on xmeth
     p = np.random.permutation(n)
