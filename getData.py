@@ -27,11 +27,7 @@ Ameth determines how A is generated
   2 - randn then QR to get orthonormal rows
   3 - bernoulli +/- 1 distribution
   4 - partial Hadamard matrix
-  5 - picks for partial fourier matrix
-  6 - picks for partial discrete cosine transform matrix
-      REQUIRES Signal Processing Toolbox
-  7 - picks for partial 2-d discrete cosing transform matrix
-      REQUIRES Image Processing Toolbox
+
 
 xmeth determines how xs is generated
   0 - randperm for support, 2*randn for values
